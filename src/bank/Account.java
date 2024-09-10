@@ -3,14 +3,14 @@ package bank;
 import exception.AmountCantBeGreaterThanBalance;
 import exception.DepositAmountCannotBeNegative;
 
-public class AccountTwo {
+public class Account {
     private String name;
     private String pin;
     private double balance;
     private String number;
 
     public void createAccount(String firstName, String lastName, String pin) {
-        AccountTwo account = new AccountTwo();
+        Account account = new Account();
         this.name = firstName + " " + lastName;
         this.pin = pin;
     }

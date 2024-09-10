@@ -1,4 +1,9 @@
 package reflection;
 
-public class Types {
+public enum Types {
+    FINANCIAL,
+    SPIRITUAL,
+    EDUCATION,
+    BUSINESS,
+    TECHNICAL,;
 }
