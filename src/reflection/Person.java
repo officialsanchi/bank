@@ -7,7 +7,7 @@ public class Person {
     private String status;
     public Person() {
         problems = new ArrayList<>();
-
+        Problem problem = new Problem("John", Types.EDUCATION);
     }
     public boolean isSolved() {
 
