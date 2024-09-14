@@ -1,9 +1,12 @@
+import reflection.Issue;
+
 public class PollingApplication {
     private  final String[]TOPICS ;
     private final int [][] RESPONSES = new int [5][10];
 
     public PollingApplication() {
-        TOPICS = new String[]{ "education","paternity","fraud", "maternity issues","mystery"};
+        Issue[] issue = Issue.values();
+        TOPICS =  new String []{ "education","paternity","fraud", "maternity issues","mystery"};
     }
     public String[] getTopics() {
             return TOPICS;
