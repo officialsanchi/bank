@@ -38,7 +38,7 @@ public class GradeRandom {
                 System.out.println(count - 1);
                 break;
             }
-             else {
+             else { 
                 System.out.println("You lost!");
             }
         }

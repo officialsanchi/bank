@@ -5,5 +5,5 @@ public enum Types {
     SPIRITUAL,
     EDUCATION,
     BUSINESS,
-    TECHNICAL,;
+    TECHNICAL;
 }

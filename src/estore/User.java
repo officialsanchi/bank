@@ -9,7 +9,7 @@ public class User {
     private String homeAddress;
     private Customer customer;
     private Admin admin;
-    //private Seller seller;
+    private Seller seller;
 
     public User(int age, String name, String email, String password, String phone, String homeAddress) {
         this.age = age;
